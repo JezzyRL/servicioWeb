@@ -2,7 +2,6 @@
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
-#from conversiones import conversiones
 
 @app.route('/temperatura', methods=['GET'])    
 def getTempertura():
