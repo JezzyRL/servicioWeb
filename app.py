@@ -37,4 +37,4 @@ def getTempertura():
     return jsonify({"t1":t1, "t2":t2, "t3":t3, "t4":t4})
 
 if __name__== '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port =4000)
